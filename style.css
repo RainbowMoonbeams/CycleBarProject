@@ -1,3 +1,26 @@
+@font-face {
+   font-family: leagueGothicRegular;
+   src: url(Fonts/LeagueGothic-Regular.otf);
+}
+@font-face {
+	font-family: futurePTHeavy;
+	src: url(Fonts/Futura_PT_Heavy.otf);
+}
+
+li {
+	font-family: 'Questrial', sans-serif;
+}
+
 body {
 	margin: 0px;
+}
+
+/* header */
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+.maroon-background {
+	background-color: darkred;
 }
