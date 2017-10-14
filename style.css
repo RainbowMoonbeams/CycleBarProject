@@ -24,3 +24,29 @@ header {
 .maroon-background {
 	background-color: darkred;
 }
+.nav-bar-menu a {
+	text-decoration: none;
+}
+.nav-bar-menu li {
+	display: inline;
+	padding: 2em;
+}
+.nav-bar-menu {
+	font-size: .75em;
+}
+.nav-bar-menu a:link {
+	color: white;
+	text-decoration: none;
+}
+.nav-bar-menu a:visited {
+	color: white;
+	text-decoration: none;
+}
+.nav-bar-menu a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.nav-bar-menu a:active {
+	color: white;
+	text-decoration: underline;
+}
