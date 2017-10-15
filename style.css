@@ -9,13 +9,26 @@
 
 li {
 	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
 }
 
 body {
 	margin: 0px;
 }
+.search-box {
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
 
 /* header */
+input {
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 11px;
+    background-color: white;
+    padding: 8px 10px 8px 10px;
+}
 .nav-bar-menu {
 	font-size: .75em;
 }
@@ -40,11 +53,20 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: white;
+	align-items: center;
+	display:  flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.page-header header-image {
+	display: flex;
+	align-items: center;
+
 }
 .page-header img {
 	max-width: 250px;
 	padding-left: 50px;
-	padding-top: 25px;
+	padding-top: 25px;	
 }
 
 /* pillars */
