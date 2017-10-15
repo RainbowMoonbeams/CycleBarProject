@@ -16,37 +16,47 @@ body {
 }
 
 /* header */
-header {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: white;
-}
-.maroon-background {
-	background-color: darkred;
+.nav-bar-menu {
+	font-size: .75em;
 }
 .nav-bar-menu a {
+	color: white;
 	text-decoration: none;
+}
+.nav-bar-menu a:link,
+.nav-bar-menu a:visited {
+	text-decoration: none;
+}
+.nav-bar-menu a:hover,
+.nav-bar-menu a:active {
+	text-decoration: underline;
 }
 .nav-bar-menu li {
 	display: inline;
 	padding: 2em;
 }
-.nav-bar-menu {
-	font-size: .75em;
-}
-.nav-bar-menu a:link {
+.page-header {
+	background-color: darkred;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: white;
-	text-decoration: none;
 }
-.nav-bar-menu a:visited {
-	color: white;
-	text-decoration: none;
+.page-header img {
+	max-width: 250px;
+	padding-left: 50px;
+	padding-top: 25px;
 }
-.nav-bar-menu a:hover {
-	color: white;
-	text-decoration: underline;
+
+/* pillars */
+
+#pillars-large-background-image {
+	position: absolute;
+	max-width: 500px;
+    z-index: -1;
 }
-.nav-bar-menu a:active {
-	color: white;
-	text-decoration: underline;
+#pillars-large-forground-text {
+	max-width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
