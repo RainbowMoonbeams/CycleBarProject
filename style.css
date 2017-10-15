@@ -15,6 +15,7 @@ input {
     width: 200px;
     box-sizing: border-box;
     border-radius: 30px;
+    border: none;
     font-size: 11px;
     background-color: white;
     padding: 8px 10px 8px 10px;
@@ -32,14 +33,23 @@ li {
 
 /* header */
 #btn-apply-now {
+	border-radius: 0px;
+	border: none;
 	background-color: darkred;
 	color: white;
 	font-family: futurePTHeavy;
 	letter-spacing: 5px;
 	font-size: 11px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 15px 10px 15px;
+	margin-right: 200px;
+}
+.group-below-mainstage-feature-image {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
 }
 .mainstage-feature-image {
+	width: 100%;
 	z-index: -1;
 }
 .nav-bar-menu,
@@ -95,7 +105,7 @@ li {
 }
 p {
 	font-family: futurePTHeavy;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	font-size: 15px;
 }
 .text-become-an-instructor {
