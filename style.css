@@ -6,21 +6,9 @@
 	font-family: futurePTHeavy;
 	src: url(Fonts/Futura_PT_Heavy.otf);
 }
-
-li {
-	font-family: 'Questrial', sans-serif;
-	font-weight: bold;
-}
-
 body {
 	margin: 0px;
 }
-.search-box {
-	font-family: 'Questrial', sans-serif;
-	font-weight: bold;
-}
-
-/* header */
 input {
     width: 200px;
     box-sizing: border-box;
@@ -29,6 +17,16 @@ input {
     background-color: white;
     padding: 8px 10px 8px 10px;
 }
+li {
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+.search-box {
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+
+/* header */
 .nav-bar-menu {
 	font-size: .75em;
 }
@@ -73,12 +71,18 @@ input {
 
 #pillars-large-background-image {
 	position: absolute;
-	max-width: 500px;
-    z-index: -1;
+	z-index: -1;
 }
 #pillars-large-forground-text {
-	max-width: 350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+/* footer */
+footer {
+	background-color: darkred;
+	height: 200px;
+}
+
+
