@@ -9,6 +9,8 @@
 body {
 	margin: 0px;
 }
+
+/* search bar & contact bar */
 input {
     width: 200px;
     box-sizing: border-box;
@@ -18,15 +20,28 @@ input {
     padding: 8px 10px 8px 10px;
 }
 li {
-	font-family: 'Questrial', sans-serif;
-	font-weight: bold;
+	font-family: futurePTHeavy;
+	letter-spacing: 3px;
+	font-size: 9px;
 }
 .search-box {
-	font-family: 'Questrial', sans-serif;
-	font-weight: bold;
+	font-family: futurePTHeavy;
+	letter-spacing: 3px;
+	font-size: 10px;
 }
 
 /* header */
+#btn-apply-now {
+	background-color: darkred;
+	color: white;
+	font-family: futurePTHeavy;
+	letter-spacing: 5px;
+	font-size: 11px;
+	padding: 10px 10px 10px 10px;
+}
+.mainstage-feature-image {
+	z-index: -1;
+}
 .nav-bar-menu {
 	font-size: .75em;
 }
@@ -45,6 +60,12 @@ li {
 .nav-bar-menu li {
 	display: inline;
 	padding: 2em;
+}
+.one-leg-up {
+	margin-left: 150px;
+	margin-top: -210px;
+	max-width: 25em;
+	position: relative;
 }
 .page-header {
 	background-color: darkred;
@@ -65,6 +86,17 @@ li {
 	max-width: 250px;
 	padding-left: 50px;
 	padding-top: 25px;	
+}
+p {
+	font-family: futurePTHeavy;
+	letter-spacing: 5px;
+	font-size: 15px;
+}
+.text-become-an-instructor {
+	color: grey;
+}
+.text-join-the-party {
+	color: darkred;
 }
 
 /* pillars */
