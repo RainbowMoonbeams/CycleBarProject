@@ -47,7 +47,7 @@ li {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: 1%;
+	margin-bottom: 2.5%;
 }
 .mainstage-feature-image {
 	width: 100%;
@@ -117,11 +117,28 @@ p {
 }
 
 /* pillars */
-#pillars-large-background-image {
+#img-cyclegiving {
 	position: absolute;
 	z-index: -1;
 }
-#pillars-large-forground-text {
+#logo-cyclegiving {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#img-cyclebeats,
+#img-cyclestar,
+#img-cyclestats,
+#img-cycletheater {
+	position: absolute;
+	z-index: -1;
+}
+#logo-cyclebeats,
+#logo-cyclestar,
+#logo-cyclestats,
+#logo-cycletheater {
 	display: flex;
 	justify-content: center;
 	align-items: center;
