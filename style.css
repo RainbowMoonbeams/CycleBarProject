@@ -46,7 +46,8 @@ li {
 .group-below-mainstage-feature-image {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;	
+	align-items: center;
+	margin-bottom: 1%;
 }
 .mainstage-feature-image {
 	width: 100%;
@@ -116,7 +117,6 @@ p {
 }
 
 /* pillars */
-
 #pillars-large-background-image {
 	position: absolute;
 	z-index: -1;
