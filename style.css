@@ -1,3 +1,4 @@
+/* universal styling */
 @font-face {
    font-family: leagueGothicRegular;
    src: url(Fonts/LeagueGothic-Regular.otf);
@@ -20,12 +21,15 @@ input {
     background-color: white;
     padding: 8px 10px 8px 10px;
 }
-
-
 li {
 	font-family: futurePTHeavy;
 	letter-spacing: 3px;
 	font-size: 9px;
+}
+p {
+	font-family: futurePTHeavy;
+	letter-spacing: 3px;
+	font-size: 15px;
 }
 .search-box {
 	font-family: futurePTHeavy;
@@ -33,7 +37,7 @@ li {
 	font-size: 10px;
 }
 
-/* header */
+/* class-specific styling */
 #btn-apply-now {
 	border-radius: 0px;
 	border: none;
@@ -50,6 +54,11 @@ li {
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 2.5%;
+}
+.flex-container-franchising {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 .mainstage-feature-image {
 	width: 100%;
@@ -106,11 +115,6 @@ li {
 	padding-left: 50px;
 	padding-top: 25px;	
 }
-p {
-	font-family: futurePTHeavy;
-	letter-spacing: 3px;
-	font-size: 15px;
-}
 .text-become-an-instructor {
 	color: grey;
 }
@@ -150,7 +154,6 @@ p {
 }
 
 /* footer */
-
 .contact-us {
 	font-family: futurePTHeavy;
 	letter-spacing: 3px;
@@ -170,9 +173,12 @@ footer {
 	max-width: 5em;
 }
 
+/* media queries */
 @media only screen and (max-width: 480px) {
 	.nav-bar-menu,
 	.search-box {
 		display: none;
 	}
 }
+
+
