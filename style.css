@@ -127,18 +127,21 @@ p {
 	align-items: center;
 }
 
-
 #img-cyclebeats,
 #img-cyclestar,
 #img-cyclestats,
 #img-cycletheater {
 	position: absolute;
+	max-width: 75%;
+	max-height: auto;
 	z-index: -1;
 }
 #logo-cyclebeats,
 #logo-cyclestar,
 #logo-cyclestats,
 #logo-cycletheater {
+	max-width: 75%;
+	max-height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
