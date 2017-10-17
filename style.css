@@ -10,7 +10,17 @@
 body {
 	margin: 0px;
 }
-
+img {
+	max-width: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.row-left,
+.row-right {
+	width: 50%;
+}
 /* search bar & contact bar */
 input {
     width: 200px;
@@ -38,7 +48,8 @@ p {
 }
 
 /* class-specific styling */
-#btn-apply-now {
+#btn-apply-now,
+#btn-learn-more {
 	border-radius: 0px;
 	border: none;
 	background-color: darkred;
@@ -59,6 +70,17 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+}
+
+.flex-container-franchising div {
+	width: 33.333%;
+}
+
+.flex-container-franchising div img {
+	width: 100%;
+}
+.flex-container-franchising img {
+	margin: 10px;
 }
 .mainstage-feature-image {
 	width: 100%;
@@ -104,19 +126,34 @@ p {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin: 0;
 }
 .page-header logo-header {
 	display: flex;
 	align-items: center;
-
 }
 .page-header img {
-	max-width: 250px;
-	padding-left: 50px;
-	padding-top: 25px;	
+	width: 250px;
+	/*padding-left: 50px;
+	padding-top: 25px;*/	
 }
 .text-become-an-instructor {
 	color: grey;
+}
+.text-cyclebar-franchising {
+	color: darkred;
+}
+.text-cyclebar-franchising-line1,
+.text-cyclebar-franchising-line2 {
+	color: grey;
+	font-size: 10px;
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+.text-cyclebar-franchising,
+.text-cyclebar-franchising-line1,
+.text-cyclebar-franchising-line2 {
+	text-align: center;
 }
 .text-join-the-party {
 	color: darkred;
@@ -133,21 +170,17 @@ p {
 	align-items: center;
 }
 
-#img-cyclebeats,
-#img-cyclestar,
-#img-cyclestats,
-#img-cycletheater {
+.img-cyclebeats,
+.img-cyclestar,
+.img-cyclestats,
+.img-cycletheater {
 	position: absolute;
-	max-width: 75%;
-	max-height: auto;
 	z-index: -1;
 }
-#logo-cyclebeats,
-#logo-cyclestar,
-#logo-cyclestats,
-#logo-cycletheater {
-	max-width: 75%;
-	max-height: auto;
+.logo-cyclebeats,
+.logo-cyclestar,
+.logo-cyclestats,
+.logo-cycletheater {
 	display: flex;
 	justify-content: center;
 	align-items: center;
