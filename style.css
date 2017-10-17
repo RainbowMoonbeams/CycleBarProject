@@ -20,6 +20,8 @@ input {
     background-color: white;
     padding: 8px 10px 8px 10px;
 }
+
+
 li {
 	font-family: futurePTHeavy;
 	letter-spacing: 3px;
@@ -94,7 +96,7 @@ li {
 	justify-content: space-around;
 	align-items: center;
 }
-.page-header header-image {
+.page-header logo-header {
 	display: flex;
 	align-items: center;
 
@@ -166,4 +168,11 @@ footer {
 }
 .logo-footer {
 	max-width: 5em;
+}
+
+@media only screen and (max-width: 480px) {
+	.nav-bar-menu,
+	.search-box {
+		display: none;
+	}
 }
