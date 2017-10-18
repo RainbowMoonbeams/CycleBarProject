@@ -49,7 +49,8 @@ p {
 
 /* class-specific styling */
 #btn-apply-now,
-#btn-learn-more {
+#btn-learn-more-bottom-of-page,
+#btn-follow-us {
 	border-radius: 0px;
 	border: none;
 	background-color: darkred;
@@ -59,14 +60,28 @@ p {
 	font-size: 11px;
 	padding: 10px 15px 10px 15px;
 	margin-right: 200px;
+	text-transform: uppercase;
+}
+#btn-learn-more-top-of-page {
+	border-radius: 0px;
+	border: 1px solid white;
+	background-color: transparent;
+	font-family: futurePTHeavy;
+	letter-spacing: 5px;
+	font-size: 11px;
+	padding: 10px 15px 10px 15px;
+	margin-right: 200px;
+	text-transform: uppercase;
 }
 .group-below-mainstage-feature-image {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 2.5%;
+	padding-top: 2%;
 }
-.flex-container-franchising {
+.flex-container-franchising,
+.flex-container-pillars {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
@@ -75,8 +90,12 @@ p {
 .flex-container-franchising div {
 	width: 33.333%;
 }
+.flex-container-pillars div {
+	width: 25%;
+}
 
-.flex-container-franchising div img {
+.flex-container-franchising div img,
+.flex-container-pillars div img {
 	width: 100%;
 }
 .flex-container-franchising img {
@@ -140,11 +159,16 @@ p {
 .text-become-an-instructor {
 	color: grey;
 }
-.text-cyclebar-franchising {
+.text-cyclebar-franchising,
+.text-cyclebar-social-media {
 	color: darkred;
+	text-transform: uppercase;
 }
 .text-cyclebar-franchising-line1,
-.text-cyclebar-franchising-line2 {
+.text-cyclebar-franchising-line2,
+.text-cyclebar-social-media-line1,
+.text-cyclebar-social-media-line2,
+.text-cyclebar-social-media-line3 {
 	color: grey;
 	font-size: 10px;
 	font-family: 'Questrial', sans-serif;
@@ -152,23 +176,48 @@ p {
 }
 .text-cyclebar-franchising,
 .text-cyclebar-franchising-line1,
-.text-cyclebar-franchising-line2 {
+.text-cyclebar-franchising-line2,
+.text-cyclebar-social-media,
+.text-cyclebar-social-media-line1,
+.text-cyclebar-social-media-line2,
+.text-cyclebar-social-media-line3 {
 	text-align: center;
 }
 .text-join-the-party {
 	color: darkred;
 }
+.text-overlay-mainstage-feature-image {
+	text-transform: uppercase;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	color: white;
+	text-align: center;
+}
+.text-rock-your-ride {
+	font-size: 6.5em;
+	letter-spacing: -0.5px;
+	font-family: leagueGothicRegular;
+	margin-bottom: 0;
+}
+.text-welcome-to-cyclebar {
+	font-family: futurePTHeavy;
+	font-size: .65em;
+	margin-top: -2em;
+}
 
 /* pillars */
-#img-cyclegiving {
-	position: absolute;
+
+/*#img-cyclegiving {
+	position: relative;
 	z-index: -1;
 }
 #logo-cyclegiving {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}*/
+
 
 .img-cyclebeats,
 .img-cyclestar,
