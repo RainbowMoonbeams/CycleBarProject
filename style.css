@@ -114,9 +114,8 @@ p {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
-
-.flex-container-pillars div img {
-	width: 25%;
+.flex-container-pillars div {
+	width: 50%;
 }
 .flex-container-franchising img,
 .flex-container-in-the-news img {
@@ -266,7 +265,6 @@ p {
 .img-cyclestar,
 .img-cyclestats,
 .img-cycletheater {
-	position: absolute;
 	z-index: -1;
 }
 .logo-cyclebeats,
