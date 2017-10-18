@@ -92,6 +92,7 @@ p {
 }
 .flex-container-pillars div {
 	width: 25%;
+
 }
 
 .flex-container-franchising div img,
@@ -260,6 +261,10 @@ footer {
 	.nav-bar-menu,
 	.search-box {
 		display: none;
+	}
+	.wrapper {
+		display: flex;
+		flex-wrap: nowrap;
 	}
 }
 
